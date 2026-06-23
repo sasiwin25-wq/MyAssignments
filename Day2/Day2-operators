@@ -1,0 +1,43 @@
+// operators "
+
+
+// + - / %
+let a= 6%2 //0
+console.log("The modules of 6 is",a)
+
+//pre-increment and post increment ++ and --
+//post increment
+let x=10;
+console.log(x++); //first print the x value and add 1 to the value
+console.log(x); //11
+
+//pre-increment
+let y=10;
+console.log(++y); // add 1 to the value and print the value
+console.log(y); //11 already incremented
+
+/* **********/
+//post decrement
+
+
+console.log(x--); //10
+console.log(x); //9
+
+//pre-increment
+
+console.log(--y); // 9
+console.log(y); //9
+
+//string Equality and loose equality
+
+/* strict Equals "==="
+1. Compare the value 
+2. compare the data type
+
+
+loose Equality "=="
+*/
+console.log(1===1) //true
+console.log(1==="1") //false
+
+console.log(1==1") //true
